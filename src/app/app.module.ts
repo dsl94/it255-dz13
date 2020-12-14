@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { LifecycleComponent } from './lifecycle/lifecycle.component';
+import { BtnDirective } from './btn.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LifecycleComponent,
+    BtnDirective
   ],
   imports: [
     BrowserModule,
